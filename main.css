@@ -1,0 +1,99 @@
+/* outside css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container{
+    background: #f66969;
+    height: 100vh;
+    padding: 1px;
+}
+.form{
+    background: white;
+    width: 540px;
+    margin:100px auto;
+    padding: 30px 40px 70px;
+    border-radius: 10px;
+    
+}
+.form h1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    width: 230px;
+}
+.form h1 img{
+    width: 40px;
+    margin-left: 10px;
+}
+/* -------------- */
+/* inputfield css */
+.inputcontain{
+    display: flex;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid black;
+}
+.inputcontain input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 30px;
+    background: transparent;
+}
+.inputcontain button{
+    border: none;
+    border-radius: 30px;
+    padding: 16px 50px;
+    font-weight: bolder;
+    color: white;
+    background-color: #f66969;
+    cursor: pointer;
+}
+/* --------------------- */
+/* Backend css */
+.divcon{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+.divcon label{
+    font-size: large;
+    width: 200px;
+    flex-grow: 1;
+}
+.divcon.marked label{
+    text-decoration: line-through;
+}
+.divcon input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.divcon button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+    background-color: #f66969;
+    cursor: pointer;
+}
+.divcon .edit{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: #f66969;
+    cursor: pointer;
+}
